@@ -7,7 +7,6 @@
 - Validation
 - Thymeleaf
 
-* Buat Spring Boot di web springboot dan 
 
 * XAMPP start: MYSQL
 * Buat database "beststore"
