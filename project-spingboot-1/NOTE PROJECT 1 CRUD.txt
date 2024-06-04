@@ -1,0 +1,13 @@
+* Buka Web browser: https://start.spring.io/
+* Add Dependencies:
+- Spring Web
+- DevTools
+- MYSQL
+- JPA
+- Validation
+- Thymeleaf
+
+* Buat Spring Boot di web springboot dan 
+
+* XAMPP start: MYSQL
+* Buat database "beststore"
