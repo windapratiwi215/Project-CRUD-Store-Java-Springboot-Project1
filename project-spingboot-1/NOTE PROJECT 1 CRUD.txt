@@ -10,3 +10,21 @@
 
 * XAMPP start: MYSQL
 * Buat database "beststore"
+
+* Winda menggunakan InteliljIDEA
+* Running di main
+- Setting "application.properties" -->setting database, dll disini
+- running --> mendapat port --> Tomcat started on port 9090 (http) with context path ''
+* Masuk ke Web Broser, ketik : localhost:port
+
+* HTML
+- buat file index.html --> di folder resource-->static
+- Menambahkan pakage "models" di Folder Java/"Project kita"/models
+  * tambahkan file java ke pakage "models", contoh "Product.java" --> untuk create table dalam database
+- tambahkan foldel public di project- berisi folder "images"
+- Menambahkan pakage "services" di Folder Java/"Project kita"/services
+  * tambhakan file interface ke dalam services "ProductRepository" extends JpaRepository<Product, Integer>
+- Menambahkan pakage "controllers" di Folder Java/"Project kita"/controllers
+  * tambahkan file java "ProductsController" (Penting untuk menambahkan annoation @Controller
+@RequestMapping("/products"))
+- Membuat pakage baru ke resource/tempkates/ "Products" untuk menyimpan View
